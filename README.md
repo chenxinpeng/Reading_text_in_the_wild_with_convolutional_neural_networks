@@ -197,6 +197,4 @@ with open('BBR_test.prototxt', 'w') as f:
 
 ![](http://img.blog.csdn.net/20161028205142745)
 
-
-
 因为是实验，数据集也小，训练参数也有待调试，就没全跑完，就到这吧。
