@@ -1,0 +1,25 @@
+# The training protocol buffer definition
+train_net: "BBR_train.prototxt"
+test_net: "BBR_test.prototxt"
+# The testing protocol buffer definition
+# test_iter specifies how many forward passes the test should carry out.
+test_iter: 1
+# carry out testing every 500 training iteritations
+test_interval: 500
+# The base learning rate, momentum and the weight decay of the network
+base_lr: 0.003
+weight_decay: 0.0005
+momentum: 0.9
+# The learning rate policy
+lr_policy: "inv"
+gamma: 0.0001
+power: 0.75
+stepsize: 5000
+# Display every 100 iterations
+display: 100
+# The maximum number of iterations
+max_iter: 100000
+# snapshot: 2000
+snapshot_prefix: "models/BBR"
+# solver mode: CPU or GPU
+solver_mode: GPU
