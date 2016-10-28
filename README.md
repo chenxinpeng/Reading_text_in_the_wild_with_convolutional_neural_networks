@@ -191,10 +191,10 @@ with open('BBR_test.prototxt', 'w') as f:
 
 看一轮训练结果：`solver.step(1)`
 
-![](http://img.blog.csdn.net/20161028205126975)
+![](https://github.com/chenxinpeng/Reading-Text-in-the-Wild-with-Convolutional-Neural-Networks/blob/master/Bounding_Box_Reg/train_1.png)
 
 还在训练中：
 
-![](http://img.blog.csdn.net/20161028205142745)
+![](https://github.com/chenxinpeng/Reading-Text-in-the-Wild-with-Convolutional-Neural-Networks/blob/master/Bounding_Box_Reg/train_2.png)
 
 因为是实验，数据集也小，训练参数也有待调试，就没全跑完，就到这吧。
