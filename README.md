@@ -1,10 +1,10 @@
 ## Preface
 
-下面是我对这篇 Reading Text in the Wild with Convolutional Neural Networks 文章实现的大致流程。
+下面是我对这篇 Reading Text in the Wild with Convolutional Neural Networks 文章, 对于前半部分：文字定位检测部分的复现大致流程。
 
-用的数据集是 ICDAR 2011: http://robustreading.opendfki.de/trac/wiki/SceneText
+用的数据集是 ICDAR 2011: http://robustreading.opendfki.de/trac/wiki/SceneText ，不少人都说 ICDAR 2011 数据集下载不了，我在这里上传一份我自己备份的：[ICDAR 2011](http://share.weiyun.com/af0cc4a85ba65b26312f192a0d14c084)
 
-一方面因为做个实验与示例，且数据集小，做的结果比较粗糙。
+需要指出的是，一方面因为做个实验与示例，且数据集小，做的结果比较粗糙。希望大家包含一下，因为不少同学跟我私信要代码，我在这里贴出来。希望得到大神的建议，帮助完善。
 
 整理后的过程文件都在 reading text in the wild 中。
 
@@ -14,7 +14,7 @@ Bounding_Box_Reg 是存放最后回归的文件夹。训练数据的生成、网
 
 Output 文件夹存放中间输出的图像，即将 Bounding Boxes 画在原图上的结果。
 
-
+**注意：**下面有些数学公式，Github 上不支持，您下载下来，用支持数学公式的 Markdown 编辑器打开即可。
 
 ## Edge Boxes
 
