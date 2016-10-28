@@ -191,11 +191,11 @@ with open('BBR_test.prototxt', 'w') as f:
 
 看一轮训练结果：`solver.step(1)`
 
-![](/Users/chenxinpeng/Desktop/1.png)
+![](http://img.blog.csdn.net/20161028205126975)
 
 还在训练中：
 
-![](/Users/chenxinpeng/Desktop/2.png)
+![](http://img.blog.csdn.net/20161028205142745)
 
 
 
